@@ -5,7 +5,7 @@
 </template>
 
 <script>
-
+// opa
 export default {
   name: 'app'
 }
