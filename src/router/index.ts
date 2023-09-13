@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 import Home from '../views/Home.vue'
+import NestedRoute from "@/components/NestedRoute.vue"
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -7,6 +8,7 @@ const routes: Array<RouteRecordRaw> = [
     name: 'Home',
     component: Home
   },
+  { path: "/nested-route", component: NestedRoute },
   {
     path: '/about',
     name: 'About',
